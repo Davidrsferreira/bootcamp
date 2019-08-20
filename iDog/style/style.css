@@ -1,0 +1,59 @@
+header {
+    background-color: rgb(35, 142, 142);
+    color: #ffffff;
+    padding: 3%;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+@media screen and (min-width: 1078px) {
+    img {
+        width: 25%;
+        display: inline;
+        margin: 1%;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1077px) {
+    img {
+        width: 250px;
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 630px) and (max-width: 779px) {
+    img {
+        width: 200px;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 629px) {
+    img {
+        width: 225px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.images {
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+table {
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: top;
+}
